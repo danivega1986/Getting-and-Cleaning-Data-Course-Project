@@ -84,3 +84,4 @@ In the tidy data (tidydata.txt) this is the list of units for each variable:
 From 3 untill 68        are double.
 
 This will help us to make the calculations in run_analysis.R
+.
