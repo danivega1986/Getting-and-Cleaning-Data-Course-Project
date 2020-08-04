@@ -18,17 +18,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 In this projec the student should create one R script called run_analysis.R that does the following.
 
 1. Merges the training and the test sets to create one data set.
-~~~~
-# 1. Merges the training and the test sets to create one data set.
-x_unified<- rbind(x_train, x_test)
-y_unified<- rbind(y_train, y_test)
-#x_unified and y_unified have 10299 obs of 561 features
-Subject_Unified<- rbind(subject_train, subject_test)
-#subject_unified has 10299 obs of 1 feature
-~~~~
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-s
+
