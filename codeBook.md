@@ -27,7 +27,7 @@ tidydata.txt contains 180 rows and 68 columns. The first two columns are the act
 All the variables estimated were variables which have mean or standard deviation from the original Data Set. in other words we kept just 66 features from 561.
 
 This is the list of variables is tidydata.txt:
-
+---- ------------------------------     -----------------------------
  [1] "activity"                         "subjectid"                  
  [3] "tBodyAcc-mean()-X"                "tBodyAcc-mean()-Y"          
  [5] "tBodyAcc-mean()-Z"                "tBodyAcc-std()-X"           
@@ -62,8 +62,8 @@ This is the list of variables is tidydata.txt:
 [63] "fBodyBodyAccJerkMag-mean()"       "fBodyBodyAccJerkMag-std()"  
 [65] "fBodyBodyGyroMag-mean()"          "fBodyBodyGyroMag-std()"     
 [67] "fBodyBodyGyroJerkMag-mean()"      "fBodyBodyGyroJerkMag-std()" 
-
-Activity column has 6 groups which are:
+---- ------------------------------     -----------------------------
+* Activity column has 6 groups which are:
   activity
 1. WALKING
 2. WALKING_UPSTAIRS
@@ -71,13 +71,16 @@ Activity column has 6 groups which are:
 4. SITTING
 5. STANDING
 6. LAYING
+
 we use this variable as a factor.
 
-subjectid has been numered from 1 to 30. Each number is a subject.
+* subjectid has been numered from 1 to 30. Each number is a subject.
 
 ## Data Unit
-In the tidy data (tidydata.txt) this is the list of units for each variabel:
+In the tidy data (tidydata.txt) this is the list of units for each variable:
 1. "activity"           is int
 2. "subjectid"          is factor
+
 From 3 untill 68        are double.
 
+This will help us to make the calculations in run_analysis.R
