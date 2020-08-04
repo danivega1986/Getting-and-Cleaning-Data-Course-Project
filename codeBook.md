@@ -80,3 +80,4 @@ In the tidy data (tidydata.txt) this is the list of units for each variabel:
 1. "activity"           is int
 2. "subjectid"          is factor
 From 3 untill 68        are double.
+
