@@ -26,7 +26,7 @@ tidydata.txt contains 180 rows and 68 columns. The first two columns are the act
 ## Variables in Tidy Data set
 All the variables estimated were variables which have mean or standard deviation from the original Data Set. in other words we kept just 66 features from 561.
 
-This is the list of variables is tidydata.txt:
+List of variables in tidydata.txt:
 
 No.  |  Variable                        | Variable 
 ---- |--------------------------------- |----------------------------
