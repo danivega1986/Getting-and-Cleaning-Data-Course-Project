@@ -74,3 +74,9 @@ Activity column has 6 groups which are:
 we use this variable as a factor.
 
 subjectid has been numered from 1 to 30. Each number is a subject.
+
+## Data Unit
+In the tidy data (tidydata.txt) this is the list of units for each variabel:
+1. "activity"           is int
+2. "subjectid"          is factor
+From 3 untill 68        are double.
